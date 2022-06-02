@@ -1,5 +1,6 @@
-'use strict'
 
-var watchTask = require('./lib/watcher');
 
-module.exports = watchTask;
+// eslint-disable-next-line import/no-commonjs
+const watchTask = require('./lib/watcher');
+
+watchTask();
